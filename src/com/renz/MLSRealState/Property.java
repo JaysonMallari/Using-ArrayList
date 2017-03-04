@@ -17,8 +17,8 @@ public class Property {
 		this.askingPrice = askingPrice;
 		this.propertyType = propertyType;
 		this.lotSize = lotSize;
-		this.numBath = 0;
-		this.numBed = 0;
+		this.numBath = numBath;
+		this.numBed = numBed;
 	}
 	
 	public String toString(){

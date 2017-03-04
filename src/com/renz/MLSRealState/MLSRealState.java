@@ -8,11 +8,12 @@ import java.util.ArrayList;
 public class MLSRealState {
 	
 	public static void main(String[] args){
+		//mls is ArrayList name.
 		ArrayList<Property> mls = new ArrayList<Property>();
 		
-		Property p1 = new Property(200000,"land",3.50);
+		Property p1 = new Property(200000, "land", 3.50);
 		mls.add(p1);
-		p1 = new Property(300000,"estate",2.50);
+		p1 = new Property(300000,"estate", 2.50, 4, 5 );
 		mls.add(p1);
 		
 		System.out.println("Listed : \n" + mls.toString());
